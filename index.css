@@ -1,14 +1,43 @@
-#q {
-  
-    text-align: center;
-    left: 50%;
-    margin-left: -50px;
-    top: 50%;
-    margin-top: -50px;
-    font-weight: 300;
-  }
+#filter{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(64, 32, 243);
+  font-weight: 300;
+  font-size: larger;
+}
+
+
+#fill{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+::-moz-selection { 
+ color:rgb(223, 238, 12);
+ background:pink
+}
+
+::selection {
+  color:rgb(223, 238, 12);
+  background:pink
+}
+
+h1:hover{
+  font-weight: 400;
+  background-color:hotpink;
+  color: blue;
 }
 
 body {
-   
+  background: rgb(3, 230, 154);
+}
+
+p {
+  font-family:  Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: medium;
 }

@@ -1,0 +1,29 @@
+{
+  "name": "goodmates",
+  "version": "1.0.0",
+  "description": "A Chrome extestion/API for Quotes, and Jokes",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodfi/Goodmates.git"
+  },
+  "keywords": [
+    "git",
+    "code",
+    "quotes",
+    "api"
+  ],
+  "author": "Optive Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/woodfi/Goodmates/issues"
+  },
+  "homepage": "https://github.com/woodfi/Goodmates#readme",
+  "dependencies": {
+    "darkmode-js": "^1.5.5",
+    "tailwindcss": "^1.4.6"
+  }
+}

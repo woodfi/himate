@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Goodmates",
+    "description": "Words Genrstor to Luven Up Day",
+    "version": "0.1.0",
+    "default_locale": "en",
+    "author": "Arav Narula",
+  
+  
+    "browser_action": {
+      "default_icon": "/img/s-note.png",
+      "default_title": " Good Mates - Simple Tool TO Liven Up Your Day"
+      
+    },
+  
+    "permissions": ["activeTab", "tabs", "newtab"],
+  
+    "background": {
+      "scripts": ["src/index.js"]
+    },
+      "chrome_url_overrides": {
+      "newtab": "index.html"
+    }
+  }
+  
